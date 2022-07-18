@@ -2,7 +2,7 @@ body{
   font-family: 'Montserrat';
 }
 
-#title {
+#title, #testimonials{
   background-color: #ff4c68;
 }
 
@@ -25,6 +25,7 @@ a {
 
 }
 
+/* Navigation Bar */
 nav li {
   padding: 0px 18px;
 }
@@ -33,7 +34,31 @@ nav li {
   margin: 5% 3% 5% 0;
 }
 
+
+/* Title Image */
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+.feature, .feature h3 {
+    font-family: 'Montserrat';
+}
+
+.feature h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature p{
+  color: #8f8f8f;
+}
+
+.fa-solid {
+  color: #ef8172;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
 }
