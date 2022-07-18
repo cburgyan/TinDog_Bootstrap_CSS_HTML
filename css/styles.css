@@ -1,3 +1,7 @@
+body{
+  font-family: 'Montserrat';
+}
+
 #title {
   background-color: #ff4c68;
 }
@@ -19,4 +23,17 @@ a {
   line-height: 1.5;
   font-weight: 900;
 
+}
+
+nav li {
+  padding: 0px 18px;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
 }
