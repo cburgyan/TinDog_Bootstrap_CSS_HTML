@@ -134,3 +134,44 @@ nav li {
 .card-button{
   width: 100%;
 }
+
+/* Call to Action */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3{
+  font-weight: bold;
+  color: white;
+}
+
+/* Footer */
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer p{
+  color: #8f8f8f;
+}
+
+#footer i{
+  color: black;
+}
+
+
+/* Media Query */
+@media (max-width: 1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
